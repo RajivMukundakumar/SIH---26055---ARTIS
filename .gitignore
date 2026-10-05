@@ -1,13 +1,11 @@
-# ==========================================
 # 1. Secrets & Environment Variables
-# ==========================================
+
 .env
 *.env
 .env.*
 
-# ==========================================
 # 2. Model Weights & Large Data Files
-# ==========================================
+
 *.pt
 *.pth
 *.h5
@@ -16,22 +14,21 @@
 *.onnx
 
 # Output directories created during training & eval
+
 train_out/
 eval_out/
 data/
 datasets/
 
-# ==========================================
 # 3. Python Bytecode & Cache Files
-# ==========================================
+
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 
-# ==========================================
 # 4. Virtual Environments
-# ==========================================
+
 venv/
 .venv/
 env/
@@ -39,16 +36,14 @@ ENV/
 env.bak/
 venv.bak/
 
-# ==========================================
 # 5. Jupyter Notebook Checkpoints & Logs
-# ==========================================
+
 .ipynb_checkpoints/
 *-checkpoint.ipynb
 *.log
 
-# ==========================================
 # 6. Operating System & IDE Configs
-# ==========================================
+
 .vscode/
 .idea/
 .DS_Store
